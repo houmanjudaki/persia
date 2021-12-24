@@ -1,0 +1,44 @@
+.FutureEvent {
+    display: flex;
+}
+.FutureEvent article {
+    flex-grow: 1;
+}
+.FutureEvent img {
+    width: 100%;
+}
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;    ;
+}
+.register-button button {
+  width: 100%;
+}
+.code {
+  font-family: monospace;
+  font-size: 12px;
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  direction: ltr;
+  text-align: left;
+}
+.event-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1 1 50%;
+  padding: 60px;
+}
+@media (max-width: 960px) {
+    .FutureEvent {
+        flex-direction: column;
+    }
+    .FutureEvent article {
+        padding: 0 20px;
+    }
+}

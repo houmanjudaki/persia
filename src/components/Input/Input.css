@@ -1,0 +1,32 @@
+.Input {
+    color: #333;
+    padding: 0 25px;
+    border: none;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 400ms;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+}
+.Input input {
+    color: #333;
+    padding: 0 25px;
+    border: none;
+    height: 60px;
+    line-height: 60px;
+    transition-duration: 400ms;
+    cursor: pointer;
+    border: 1px solid #eee;
+    width: 100%;
+}
+.Input input:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+@media (max-width: 960px) {
+    .Input input{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
